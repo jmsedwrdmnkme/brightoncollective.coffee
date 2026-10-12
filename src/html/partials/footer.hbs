@@ -1,5 +1,67 @@
 </main>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://brightoncollective.coffee/#organization",
+      "name": "Brighton Coffee Collective",
+      "url": "https://brightoncollective.coffee/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://brightoncollective.coffee/#logo",
+        "url": "https://brightoncollective.coffee/img/brighton-coffee-collective-logo.webp",
+        "contentUrl": "https://brightoncollective.coffee/img/brighton-coffee-collective-logo.webp",
+        "width": 800,
+        "height": 800,
+        "caption": "Brighton Coffee Collective"
+      },
+      "image": { "@id": "https://brightoncollective.coffee/#logo" },
+      "description": "Brighton & Hove's speciality coffee community. Join our coffee tastings, education sessions, meetups and events, discover local cafés & coffee.",
+      "slogan": "Speciality Coffee Community",
+      "areaServed": [
+        { "@type": "City", "name": "Brighton", "sameAs": "https://en.wikipedia.org/wiki/Brighton" },
+        { "@type": "City", "name": "Hove", "sameAs": "https://en.wikipedia.org/wiki/Hove" },
+        { "@type": "AdministrativeArea", "name": "Brighton and Hove", "sameAs": "https://en.wikipedia.org/wiki/Brighton_and_Hove" }
+      ],
+      "knowsAbout": [
+        "Speciality coffee",
+        "Coffee tasting",
+        "Coffee cupping",
+        "Coffee education",
+        "Barista workshops",
+        "Independent cafés in Brighton and Hove"
+      ],
+      "sameAs": [
+        "https://www.instagram.com/brighton.coffee.collective/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://brightoncollective.coffee/#website",
+      "url": "https://brightoncollective.coffee/",
+      "name": "Brighton Coffee Collective",
+      "description": "Brighton & Hove's speciality coffee community.",
+      "inLanguage": "en-GB",
+      "publisher": { "@id": "https://brightoncollective.coffee/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://brightoncollective.coffee/#webpage",
+      "url": "https://brightoncollective.coffee/",
+      "name": "Brighton Coffee Collective | Speciality Coffee Community",
+      "description": "Brighton & Hove's speciality coffee community. Join our coffee tastings, education sessions, meetups and events, discover local cafés & coffee.",
+      "inLanguage": "en-GB",
+      "isPartOf": { "@id": "https://brightoncollective.coffee/#website" },
+      "about": { "@id": "https://brightoncollective.coffee/#organization" },
+      "primaryImageOfPage": { "@id": "https://brightoncollective.coffee/#logo" }
+    }
+  ]
+}
+</script>
+
 <script async src="/js/main.js"></script>
 
 </body>
