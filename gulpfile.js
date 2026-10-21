@@ -222,15 +222,15 @@ function favicon() {
   return src(paths.favicon.src, {encoding: false})
     .pipe(
       favicons({
-        appName: 'Front End Boilerplate',
-        appShortName: 'FEB',
-        appDescription: 'Modern, optimised, minimal front end boilerplate; installed and kept up to date via PNPM.',
+        appName: 'Brighton Coffee Collective',
+        appShortName: 'BCC',
+        appDescription: 'Brighton & Hove\'s speciality coffee community. Join our coffee tastings, education sessions, meetups and events, discover local cafés & coffee.',
         developerName: 'James Monk',
-        developerURL: 'https://github.com/jmsedwrdmnkme/front-end-boilerplate',
+        developerURL: 'https://github.com/jmsedwrdmnkme/brightoncollective.coffee',
         background: '#020307',
         theme_color: '#020307',
         path: 'favicons/',
-        url: 'http://localhost:3000',
+        url: 'https://brightoncollective.coffee',
         display: 'standalone',
         orientation: 'portrait',
         scope: '/',
