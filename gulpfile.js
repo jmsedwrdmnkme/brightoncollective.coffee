@@ -251,7 +251,7 @@ function favicon() {
 function sitemaps() {
   return src([`${paths.html.dest}*.html`], { read: false })
     .pipe(sitemap({
-      siteUrl: 'http://localhost:3000',
+      siteUrl: 'https://brightoncollective.coffee',
       fileName: 'sitemap.xml',
       changefreq: 'weekly',
       priority: function(siteUrl, loc) {
